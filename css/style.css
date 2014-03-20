@@ -63,13 +63,13 @@ body {
 }
 .main ul.social a {
     display: block;
-    height: 48px;
+    height: 45px;
     opacity: 0.6;
     -o-transition: 0.6s all ease;
     -moz-transition: 0.6s all ease;
     -webkit-transition: 0.6s all ease;
     transition: 0.6s all ease;
-    width: 48px;
+    width: 46px;
 }
 .main ul.social a:hover {
     opacity: 1;
