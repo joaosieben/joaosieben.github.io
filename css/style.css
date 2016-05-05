@@ -6,24 +6,25 @@ body {
     background: rgba(0, 0, 0, 0.05);
 }
 .main h1 {
-    font-family: "American Typewriter", serif;
-    font-weight: 200;
-    text-align: center;
-    margin: 150px 0px 20px;
+    font-family: "American Typewriter", "Cinzel Decorative", serif;
     font-size: 4em;
+    font-weight: 400;
+    margin: 150px 0px 20px;
+    text-align: center;
 }
 .main p {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: Georgia, "Slabo 27px", serif;
+    font-size: 1.3em;
     text-align: center;
 }
 .i {
     font-style: italic;
 }
 .main .social {
-    width: 592px;
+    display: block;
     height: 100px;
     margin: 50px auto 0;
-    display: block;
+    width: 592px;
 }
 .main .social {
     list-style: none;
@@ -34,14 +35,14 @@ body {
     margin: 0 10px;
 }
 .main .social a {
-    width: 128px;
-    height: 128px;
     display: block;
+    height: 128px;
+    opacity: 0.75;
     -o-transition: 0.6s all ease;
     -moz-transition: 0.6s all ease;
     -webkit-transition: 0.6s all ease;
     transition: 0.6s all ease;
-    opacity: 0.75;
+    width: 128px;
 }
 .main .social a:hover {
     opacity: 1;
