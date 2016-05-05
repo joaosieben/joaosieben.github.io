@@ -5,6 +5,9 @@
 body {
     background: rgba(0, 0, 0, 0.05);
 }
+.main, .wrapper {
+    width: 100%;
+}
 .main h1 {
     font-family: "American Typewriter", "Cinzel Decorative", serif;
     font-size: 4em;
@@ -58,4 +61,16 @@ body {
 }
 .main .social .lkdin {
     background: url("../img/lkdin.png") no-repeat center center;
+}
+
+/*Deisgn Responsivo*/
+
+@media (max-width: 592px) {
+    .main .social {
+        width: 300px;
+        margin: 20px auto;
+    }
+    .main .social li {
+        margin: 10px;
+    }
 }
