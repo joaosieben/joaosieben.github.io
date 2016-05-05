@@ -66,6 +66,9 @@ body {
 /*Deisgn Responsivo*/
 
 @media (max-width: 592px) {
+    .main h1 {
+        margin: 30px 0;
+    }
     .main .social {
         width: 300px;
         margin: 20px auto;
